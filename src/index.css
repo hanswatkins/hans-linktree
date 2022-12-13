@@ -59,6 +59,10 @@ h1 {
 	font-style: normal;
 }
 
+i {
+	padding-left: 1rem;
+}
+
 @media (prefers-color-scheme: light) {
 	:root {
 		color: #213547;
@@ -67,7 +71,5 @@ h1 {
 	.card {
 		background-color: black;
 	}
-	a:hover {
-		color: #747bff;
-	}
+	
 }

@@ -14,7 +14,7 @@ function App() {
 						target='_blank'
 						href='https://open.spotify.com/artist/3pSfwb3p6BVPTYDkNdgxS2?si=1M3-SutNThyb310WW0UAvQ'
 					>
-						spotify
+						spotify <i class="fa-brands fa-spotify"></i>
 					</a>
 				</li>
 				<li>
@@ -23,7 +23,7 @@ function App() {
 						target='_blank'
 						href='https://music.apple.com/us/artist/arbour/1067870471'
 					>
-						apple music
+						apple music <i class="fa-brands fa-apple"></i>
 					</a>
 				</li>
 				<li>
@@ -32,7 +32,7 @@ function App() {
 						target='_blank'
 						href='https://www.youtube.com/prod_arbour'
 					>
-						youtube
+						youtube <i class="fa-brands fa-youtube"></i>
 					</a>
 				</li>
 				<li>
@@ -41,7 +41,7 @@ function App() {
 						target='_blank'
 						href='https://www.instagram.com/prod_arbour/'
 					>
-						instagram
+						instagram <i class="fa-brands fa-instagram"></i>
 					</a>
 				</li>
 				<li>
@@ -50,7 +50,7 @@ function App() {
 						target='_blank'
 						href='https://twitter.com/prod_arbour'
 					>
-						twitter
+						twitter <i class="fa-brands fa-youtube"></i>
 					</a>
 				</li>
 				<li>
@@ -59,7 +59,7 @@ function App() {
 						target='_blank'
 						href='https://www.facebook.com/arbourofficial'
 					>
-						facebook
+						facebook <i class="fa-brands fa-facebook"></i>
 					</a>
 				</li>
 			</ul>
