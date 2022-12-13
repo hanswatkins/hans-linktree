@@ -11,6 +11,7 @@ function App() {
 				<li>
 					<a
 						className='button is-outlined is-fullwidth is-white'
+						id='spotify'
 						target='_blank'
 						href='https://open.spotify.com/artist/3pSfwb3p6BVPTYDkNdgxS2?si=1M3-SutNThyb310WW0UAvQ'
 					>
@@ -20,6 +21,7 @@ function App() {
 				<li>
 					<a
 						className='button is-outlined is-fullwidth is-white'
+						id='apple-music'
 						target='_blank'
 						href='https://music.apple.com/us/artist/arbour/1067870471'
 					>
@@ -29,6 +31,7 @@ function App() {
 				<li>
 					<a
 						className='button is-outlined is-fullwidth is-white'
+						id='youtube'
 						target='_blank'
 						href='https://www.youtube.com/prod_arbour'
 					>
@@ -38,6 +41,7 @@ function App() {
 				<li>
 					<a
 						className='button is-outlined is-fullwidth is-white'
+						id='instagram'
 						target='_blank'
 						href='https://www.instagram.com/prod_arbour/'
 					>
@@ -47,15 +51,17 @@ function App() {
 				<li>
 					<a
 						className='button is-outlined is-fullwidth is-white'
+						id='twitter'
 						target='_blank'
 						href='https://twitter.com/prod_arbour'
 					>
-						twitter <i class="fa-brands fa-youtube"></i>
+						twitter <i class="fa-brands fa-twitter"></i>
 					</a>
 				</li>
 				<li>
 					<a
 						className='button is-outlined is-fullwidth is-white'
+						id='facebook'
 						target='_blank'
 						href='https://www.facebook.com/arbourofficial'
 					>
@@ -63,7 +69,7 @@ function App() {
 					</a>
 				</li>
 			</ul>
-			<div className='footer-link'>
+			<div className='footer-link' id='footer'>
 				<a href='https://www.hanswatkins.com'>Created by Hans Watkins</a>
 			</div>
 		</div>
