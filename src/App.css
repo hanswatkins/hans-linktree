@@ -1,41 +1,80 @@
+@media screen and (max-width: 2560px) {
+	h1 {
+		font-size: 15rem;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	h1 {
+		font-size: 15rem;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	h1 {
+		font-size: 10rem;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	h1 {
+		font-size: 10rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 8rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	h1 {
+		font-size: 6rem;
+	}
+}
+@media screen and (max-width: 425px) {
+	h1 {
+		font-size: 5rem;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	h1 {
+		font-size: 5rem;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	h1 {
+		font-size: 5rem;
+	}
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
 }
 
 .card {
-  padding: 2em;
+	padding: 5em;
 }
 
-.read-the-docs {
-  color: #888;
+li {
+	padding: 0.3rem;
+}
+
+.footer-link a {
+	color: rgb(209, 236, 253);
+}
+
+.footer-link {
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 1rem;
 }
