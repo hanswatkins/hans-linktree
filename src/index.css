@@ -1,114 +1,118 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 header {
-	-webkit-perspective: 1500px;
-	perspective: 1500px;
+  -webkit-perspective: 1500px;
+  perspective: 1500px;
 }
 
 :root {
-	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 24px;
-	font-weight: 400;
-	color-scheme: light dark;
-	color: rgba(255, 255, 255, 0.87);
-	background-image: url('./assets/background2-small.jpg');
-	background-color: #242424;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	font-synthesis: none;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-text-size-adjust: 100%;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-image: url("./assets/background2-small.jpg");
+  background-color: #242424;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
 @keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 a {
-	font-weight: 500;
-	color: #646cff;
-	text-decoration: inherit;
-	transition-duration: 0.3s;
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+  transition-duration: 0.3s;
 }
 a:hover {
-	color: #f2bd53;
-	transform: scale(1.05);
-	transition-duration: 0.3s;
+  color: #f2bd53;
+  transform: scale(1.05);
+  transition-duration: 0.3s;
 }
 
 body {
-	margin: 0;
-	display: flex;
-	place-items: center;
-	min-width: 320px;
-	min-height: 100vh;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
 h1 {
-	line-height: 1.1;
-	text-transform: uppercase;
-	color: white;
-	font-family: degular, sans-serif;
-	font-weight: 800;
-	font-style: normal;
-	animation: fadeIn 0.5s;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: white;
+  font-family: degular, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  animation: fadeIn 0.5s;
 }
 
 .a,
 h1 {
-	animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 #spotify {
-	animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+#arbour-console {
+  animation: fadeIn 1s;
 }
 
 #apple-music {
-	animation: fadeIn 2s;
+  animation: fadeIn 2s;
 }
 
 #youtube {
-	animation: fadeIn 3s;
+  animation: fadeIn 3s;
 }
 
 #instagram {
-	animation: fadeIn 4s;
+  animation: fadeIn 4s;
 }
 
 #twitter {
-	animation: fadeIn 5s;
+  animation: fadeIn 5s;
 }
 
 #facebook {
-	animation: fadeIn 6s;
+  animation: fadeIn 6s;
 }
 
 i {
-	padding-left: 1rem;
-	animation: fadeIn 9s;
+  padding-left: 1rem;
+  animation: fadeIn 9s;
 }
 
 @media (prefers-color-scheme: light) {
-	:root {
-		color: #213547;
-		background-color: #ffffff;
-	}
-	.card {
-		background-color: black;
-	}
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  .card {
+    background-color: black;
+  }
 }
