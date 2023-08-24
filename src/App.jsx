@@ -15,8 +15,10 @@ function App() {
             target="_blank"
             href="https://audio-mixer-with-visualization.onrender.com/"
           >
-            arbour console <i class="fa-brands fa-spotify"></i>
+            arbour console <i class="fa-solid fa-headphones"></i>
           </a>
+        </li>
+        <li>
           <a
             className="button is-outlined is-fullwidth is-white"
             id="spotify"

@@ -1,71 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/music-solid.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
-		/>
-		<link href="/dist/output.css" rel="stylesheet" />
-		<link rel="stylesheet" href="https://use.typekit.net/zjt3emy.css" />
-		<script
-			src="https://kit.fontawesome.com/2f243937b0.js"
-			crossorigin="anonymous"
-		></script>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/music-solid.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.typekit.net/zjt3emy.css" />
+    <script
+      src="https://kit.fontawesome.com/2f243937b0.js"
+      crossorigin="anonymous"
+    ></script>
 
-		<title>Arbour</title>
-	</head>
-	<body>
-		<div id="root"></div>
-		<script>
-			window.addEventListener
-				? window.addEventListener('mousemove', showMouseXY, false)
-				: window.attachEvent && window.attachEvent('onmousemove', showMouseXY);
+    <title>Arbour</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      window.addEventListener
+        ? window.addEventListener("mousemove", showMouseXY, false)
+        : window.attachEvent && window.attachEvent("onmousemove", showMouseXY);
 
-			function text3d(x, y) {
-				var styleStore = '';
-				for (var i = 0; i < 6; i++) {
-					styleStore += x * (i * 0.03) + 'px ' + y * (i * 0.03) + 'px 0 ' + ',';
-				}
-				return styleStore.substr(0, styleStore.length - 1);
-			}
+      function text3d(x, y) {
+        var styleStore = "";
+        for (var i = 0; i < 6; i++) {
+          styleStore += x * (i * 0.03) + "px " + y * (i * 0.03) + "px 0 " + ",";
+        }
+        return styleStore.substr(0, styleStore.length - 1);
+      }
 
-			function showMouseXY(event) {
-				var target = document.querySelector('header h1');
-				var body = document.querySelector('body');
-				var cX = -(window.innerWidth / 2 - event.clientX) / 40;
-				var cY = (window.innerHeight / 2 - event.clientY) / 40;
-				target.setAttribute(
-					'style',
-					'text-shadow:' +
-						text3d(-cX, cY) +
-						',' +
-						';transform:rotateY(' +
-						cX +
-						'deg) rotateX(' +
-						cY +
-						'deg);'
-				);
-				var radX =
-					event.clientX > window.innerWidth * 0.333333
-						? event.clientX < window.innerWidth * 0.666666
-							? 'center'
-							: 'right'
-						: 'left';
-				var radY =
-					event.clientY > window.innerHeight * 0.333333
-						? event.clientY < window.innerHeight * 0.666666
-							? 'center'
-							: 'bottom'
-						: 'top';
-				console.log('x: ' + cX);
-				console.log('y: ' + cY);
-				console.log('x: ' + radX);
-				console.log('y: ' + radY);
-			}
-		</script>
-		<script type="module" src="/src/main.jsx"></script>
-	</body>
+      function showMouseXY(event) {
+        var target = document.querySelector("header h1");
+        var body = document.querySelector("body");
+        var cX = -(window.innerWidth / 2 - event.clientX) / 40;
+        var cY = (window.innerHeight / 2 - event.clientY) / 40;
+        target.setAttribute(
+          "style",
+          "text-shadow:" +
+            text3d(-cX, cY) +
+            "," +
+            ";transform:rotateY(" +
+            cX +
+            "deg) rotateX(" +
+            cY +
+            "deg);"
+        );
+        var radX =
+          event.clientX > window.innerWidth * 0.333333
+            ? event.clientX < window.innerWidth * 0.666666
+              ? "center"
+              : "right"
+            : "left";
+        var radY =
+          event.clientY > window.innerHeight * 0.333333
+            ? event.clientY < window.innerHeight * 0.666666
+              ? "center"
+              : "bottom"
+            : "top";
+        console.log("x: " + cX);
+        console.log("y: " + cY);
+        console.log("x: " + radX);
+        console.log("y: " + radY);
+      }
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
