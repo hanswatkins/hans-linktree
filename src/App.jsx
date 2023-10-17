@@ -21,6 +21,16 @@ function App() {
         <li>
           <a
             className="button is-outlined is-fullwidth is-white"
+            id="arbour-console"
+            target="_blank"
+            href="https://audio-mixer-with-visualization.onrender.com/"
+          >
+            remix contest <i class="fa-solid fa-compact-disc"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            className="button is-outlined is-fullwidth is-white"
             id="spotify"
             target="_blank"
             href="https://open.spotify.com/artist/3pSfwb3p6BVPTYDkNdgxS2?si=1M3-SutNThyb310WW0UAvQ"
@@ -68,7 +78,7 @@ function App() {
             twitter <i class="fa-brands fa-twitter"></i>
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             className="button is-outlined is-fullwidth is-white"
             id="facebook"
@@ -77,7 +87,7 @@ function App() {
           >
             facebook <i class="fa-brands fa-facebook"></i>
           </a>
-        </li>
+        </li> */}
       </ul>
       <div className="footer-link" id="footer">
         <a href="https://www.hanswatkins.com">Created by Hans Watkins</a>
