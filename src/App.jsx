@@ -11,26 +11,6 @@ function App() {
         <li>
           <a
             className="button is-outlined is-fullwidth is-white"
-            id="arbour-console"
-            target="_blank"
-            href="https://audio-mixer-with-visualization.onrender.com/"
-          >
-            arbour console <i class="fa-solid fa-headphones"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            className="button is-outlined is-fullwidth is-white"
-            id="arbour-console"
-            target="_blank"
-            href="https://audio-mixer-with-visualization.onrender.com/"
-          >
-            remix contest <i class="fa-solid fa-compact-disc"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            className="button is-outlined is-fullwidth is-white"
             id="spotify"
             target="_blank"
             href="https://open.spotify.com/artist/3pSfwb3p6BVPTYDkNdgxS2?si=1M3-SutNThyb310WW0UAvQ"
